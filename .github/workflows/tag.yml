@@ -2,8 +2,8 @@
 name: tag
 
 on:
-  create:
-    ref_type: [ tag ]
+  push:
+    tags: '*'
 
 env:
   CARGO_TERM_COLOR: always
