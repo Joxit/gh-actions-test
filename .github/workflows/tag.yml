@@ -3,7 +3,7 @@ name: tag
 
 on:
   create:
-    types: [ tag ]
+    ref_type: [ tag ]
 
 env:
   CARGO_TERM_COLOR: always
