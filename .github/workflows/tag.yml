@@ -2,7 +2,8 @@
 name: tag
 
 on:
-  create
+  release:
+    types: [ created ]
 
 env:
   CARGO_TERM_COLOR: always
